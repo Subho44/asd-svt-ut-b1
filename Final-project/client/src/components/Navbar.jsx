@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Contact', to: '/contact', current: false },
   { name: 'Course Details', to: '/cd', current: false },
   { name: 'Add Courses', to: '/add', current: false },
+  
 ]
 
 function classNames(...classes) {

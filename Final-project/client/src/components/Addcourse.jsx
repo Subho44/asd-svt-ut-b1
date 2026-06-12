@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
+
 const Addcourse = () => {
 
   const navigate = useNavigate();
@@ -70,6 +71,7 @@ const Addcourse = () => {
       </form>
   </div>
   
+    
   
   </>
 }

@@ -23,7 +23,7 @@ router.get('/:id', async (req, res) => {
 
 //update
 
-router.put('/', async (req, res) => {
+router.put('/:id', async (req, res) => {
     const course = await Course.findByIdAndUpdate(
         req.params.id,
         req.body,
@@ -34,7 +34,7 @@ router.put('/', async (req, res) => {
 
 //delete
 
-router.delete('/', async (req, res) => {
+router.delete('/:id', async (req, res) => {
     await Course.findByIdAndDelete(
         req.params.id,
     );
